@@ -1,0 +1,109 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29 May, 2023, 12:56:17 AM
+    Author     : AnkushCp
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gal_contain{
+    display: flex;
+    justify-content: center;
+}
+.gall_turfs{
+    display: grid;
+    border-top: 1px solid green;
+    /* display: flex; */
+    justify-content: center;
+    width: 76%;
+    float: left;
+    overflow: auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto auto;
+}
+.gall_turfs .turf_contain{
+  
+    text-align: center;
+    margin: 21px;
+    height: 218px;
+    width: 218px;
+    background: #cdf1d7;
+    padding: 13px;
+    border-radius: 7px;
+    animation: ease-in-out;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.gall_turfs .turf_contain:hover {
+
+    box-shadow: 5px 0px 5px 4px #bcbcbc8c;
+ 
+
+}
+.gall_turfs .turf_contain .city{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid green;;
+}
+.gall_turfs .turf_contain .add{
+    color: black;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 21px;
+    margin-bottom: 18px;
+}
+
+.gall_turfs .turf_contain strong{
+
+    border-radius: 10x;
+    padding: 9px;
+    color: black;
+    font-size: 11px;
+    font-family: 'Poppins', sans-serif;
+}
+.gall_turfs .turf_contain .but_contain{
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+}
+.gall_turfs .turf_contain .but_contain .but{
+    display: flex;
+    justify-content: center;
+    background: green;
+    padding: 8px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    width: 103px;
+}
+.center_contain1{
+display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+
+}
+.center_contain1 .center_contain2{
+        margin-top: 50px;
+    width: 67%;
+    text-align: center;       
+    margin-bottom: 50px;
+    
+}
+.center_contain1 .center_contain2 h3 b{
+    color: black;
+    font-size: 25px;
+}

@@ -1,0 +1,63 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Jun, 2023, 11:13:25 PM
+    Author     : AnkushCp
+*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.table_contain{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+}
+.table_contain .tab{
+ 
+    width: 788px;
+    margin-top: 47px;
+}
+.table_contain .tab .t_head{
+background: linear-gradient(142deg, #32d1d1f2 34.68%, #51bd48 64.89%);
+}
+.table_contain .tab tr th{
+    color: black;
+    margin-top: 47px;
+    padding: 6px;
+  
+    border-radius: 4px;
+    text-align-last: center;
+}
+.table_contain .tab tr td{
+    padding: 6px;
+    color: black;
+    border: 2px solid;
+    border-radius: 4px;
+    text-align-last: center;
+    font-family: Lexend;
+}
+.table_contain .tab tr td a{
+       font-family: Lexend; 
+}
+h1{
+    display: flex;
+    /* width: 358px; */
+    /* border-top: 2px solid; */
+    padding: 13px;
+    color: #dee4e4;
+    margin-top: 34px;
+    text-align: center;
+    justify-content: center;
+}
+.headin h1{
+      color: #44c334;
+    font-size: 28px;
+    font-family: 'Lexend', sans-serif
+}

@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Jun, 2023, 10:25:29 PM
+    Author     : AnkushCp
+*/
+
+.pay_form{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.pay_form .razorpay-payment-button{
+    border: none;
+    margin-top: 250px;
+    width: 185px;
+    height: 46px;
+    font-size: 16px;
+    padding: 6px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(73 194 49);
+}
+.pay_form .razorpay-payment-button:hover{
+
+    background-color:rgb(66 128 53);
+}

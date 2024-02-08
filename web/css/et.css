@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Jun, 2023, 10:56:47 PM
+    Author     : AnkushCp
+*/
+
+.first_c{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    height: 100%;
+    flex-direction: row;
+}
+.first_c .t{
+    display: grid;
+
+    justify-content: center;
+    width: 76%;
+    float: left;
+    padding: 31px;
+    overflow: auto;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+}
+.first_c .t a .turf{
+    margin-top: 29px;
+    display: flex;
+    width: 196px;
+    margin-left: 50px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: linear-gradient(142deg, #7ed078f2 34.68%, #43b4b3 64.89%);
+    transition: all ease-in-out;
+    transition-delay: 0.2s; 
+     transition-duration: 0.5s;
+    box-shadow: 2px 2px 11px 0px black;
+}
+.first_c .t a .turf:hover{  
+    box-shadow: 6px 6px 20px 2px black;
+}
+.first_c .t a .turf h1{
+    text-align: center;
+    color: white;
+}
+.ed{
+    margin-top: 31px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 24px;
+}

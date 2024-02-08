@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31 May, 2023, 9:57:02 PM
+    Author     : AnkushCp
+*/
+
+.reciept_contain{
+    display: flex;
+}
+.reciept_contain .reciept{
+
+    margin: auto;
+    margin-top: 48px;
+}
+.reciept_contain .reciept .fline{
+    display: flex;
+}
+.reciept_contain .reciept .fline h1{
+    color: black;
+    padding: 10px;
+}
+p{
+    padding: 10px;
+}

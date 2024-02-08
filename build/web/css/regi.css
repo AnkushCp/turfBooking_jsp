@@ -1,0 +1,164 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 May, 2023, 10:36:36 PM
+    Author     : AnkushCp
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(73 194 49);
+    font-size: 15px;
+}
+.heading{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.heading h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    margin-top: 39px;
+
+}
+.header{
+display: flex;
+width: 100%;
+padding: 21px;
+}
+.header .left_header{
+
+    width: 50%;
+}
+.header .left_header img{
+    width: 30%;
+}
+.header .right_header{
+
+    width:50%;
+    display:flex;
+}
+.header .right_header .menu{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    padding-right: 56px;
+}
+.header .right_header .menu li{
+    
+    list-style: none;
+    padding-left: 56px;
+}
+.header .right_header .menu li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+.header .right_header .menu li a:hover{
+    text-decoration: none;
+    color: rgb(120, 192, 39);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form_container{
+    width: 100%;
+justify-content: center;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.form_container form{
+    margin-top:25px ;
+    border-radius: 11px;
+    width: 400px;
+    height: 364px;
+    padding: 40px;
+    padding-inline: 10px;
+    text-align: center;
+    background: rgba(205, 241, 215, 0.49);
+}
+.form_container .login_form{
+    margin-top:50px ;
+    border-radius: 11px;
+    width: 400px;
+    height: 359px;
+    padding: 40px;
+    padding-inline: 10px;
+    text-align: center;
+    background: rgba(205, 241, 215, 0.49);
+}
+.form_container form .field{
+    padding: 7px;
+    margin: 9px;
+    width: 242px;
+    border-radius: 6px;
+    border: solid 1px #a9a1a1;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form_container form .curr_city{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 7px;
+    margin: 9px;
+    width: 242px;
+    border-radius: 6px;
+    border: solid 1px #a9a1a1;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form_container form .curr_city option{
+    color: rgb(45, 202, 30);
+    font-size: 15px;
+    font-weight: bold;
+}
+.form_container form .register{
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    width: 123px;
+    background: #38a02f;
+    color: rgb(255 255 255);
+    animation: ease-in-out;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+.form_container form .register:hover{
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    width: 123px;
+    background: black;
+
+}
+.ground{
+    width: 100%;
+}
+.ground img{
+    z-index: -22;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.form_container form h1{
+    margin-top: 22px;
+    color:black;
+}
+.form_container form h1 a {
+    color: #3686eb;
+}
